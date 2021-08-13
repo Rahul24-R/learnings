@@ -26,23 +26,23 @@ function viewpdf(a)
         break;
     
     case 2:
-        document.getElementById("test_cert").src="./certificates/day1.2.pdf";
+        document.getElementById("test_cert").src="./certificates/day1.2.pdf#toolbar=0";
         break;
 
     case 3:
-        document.getElementById("test_cert").src="./certificates/day1.3.pdf";
+        document.getElementById("test_cert").src="./certificates/day1.3.pdf#toolbar=0";
         break;
     
     case 4:
-        document.getElementById("test_cert").src="./certificates/day3.pdf";
+        document.getElementById("test_cert").src="./certificates/day3.pdf#toolbar=0";
         break;
 
     case 5:
-        document.getElementById("test_cert").src="./certificates/db1.pdf";
+        document.getElementById("test_cert").src="./certificates/db1.pdf#toolbar=0";
         break;
 
     case 6:
-        document.getElementById("test_cert").src="./certificates/db2.pdf";
+        document.getElementById("test_cert").src="./certificates/db2.pdf#toolbar=0";
         break;
   }
 }
