@@ -269,3 +269,14 @@ p#social,#Add{
 #address_link{
     text-decoration: none;
 }
+
+/*certifications*/
+#cc_head{
+    width: 30%;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    font-size: 30px;
+    font-family: fantasy;
+    text-align: center;
+}
