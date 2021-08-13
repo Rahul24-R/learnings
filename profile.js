@@ -21,6 +21,6 @@ function viewpdf(a)
 {
   if(a===1)
   {
-    document.getElementById("test_cert").src="./certificates/htmlcss_1.pdf";
+    document.getElementById("test_cert").src="./certificates/htmlcss_1.pdf#toolbar=0";
   }
 }
