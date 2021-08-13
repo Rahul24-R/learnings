@@ -19,8 +19,30 @@ function leavepage()
 
 function viewpdf(a)
 {
-  if(a===1)
+  switch(a)
   {
-    document.getElementById("test_cert").src="./certificates/htmlcss_1.pdf#toolbar=0";
+    case 1:
+        document.getElementById("test_cert").src="./certificates/htmlcss_1.pdf#toolbar=0";
+        break;
+    
+    case 2:
+        document.getElementById("test_cert").src="./certificates/day1.2.pdf";
+        break;
+
+    case 3:
+        document.getElementById("test_cert").src="./certificates/day1.3.pdf";
+        break;
+    
+    case 4:
+        document.getElementById("test_cert").src="./certificates/day3.pdf";
+        break;
+
+    case 5:
+        document.getElementById("test_cert").src="./certificates/db1.pdf";
+        break;
+
+    case 6:
+        document.getElementById("test_cert").src="./certificates/db2.pdf";
+        break;
   }
 }
